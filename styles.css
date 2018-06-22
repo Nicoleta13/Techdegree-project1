@@ -109,15 +109,11 @@ ul.skills {
 
 .skills li {
   border-radius: 10px;
-  display: inline-block;
-  background: #F7C465;
+  display:table-caption;
+  background: #F5ED84;
   color: black;
   padding: 5px 10px;
   margin: 2px;
-}
-
-.skills li:nth-child(even) {
-  background: #0399ff;
 }
 
 .hobby {
@@ -212,5 +208,3 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
