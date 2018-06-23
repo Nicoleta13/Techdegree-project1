@@ -7,6 +7,48 @@ body {
   background: #57BFF2;
 }
 
+.main-nav {
+  width: 100%;
+  background: white;
+  min-height: 30px;
+  padding: 10px;
+  position:relative;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 1000;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: black;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .4s;
+}
+.nav a:hover {
+  color: red;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #030202;
+}
+a:hover {
+  color: #3409B5;
+}
+
 footer {
   width: 100%;
   min-height: 30px;

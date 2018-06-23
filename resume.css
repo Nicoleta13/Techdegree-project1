@@ -6,6 +6,45 @@ body{
 
 }
 
+.main-nav {
+  width: 100%;
+  background: #E0BA8D;
+  min-height: 10px;
+  padding: 10px;
+  position:relative;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 800;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .4s;
+}
+.nav a:hover {
+  color: red;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #030202;
+}
+a:hover {
+  color: #6633ff;
+}
+
+
 .main-image{
 		border: solid 4px black;
 		border-radius: 10%;
